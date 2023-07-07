@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Project R: 150 Unlimited</title>
+    <meta name="description" content="Ahlan Hanan Wijaya - Project R: 150 Unlimited"/>
+    <meta name="keywords" content="HTML, CSS, JavaScript"/>
+    <meta name="author" content="Ahlan Hanan Wijaya"/>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="icon" href="images/helmet.png"/>
+</head>
+
+<body>
+    <nav>
+        <span class="mobile">
+            <img src="images/hamburger.png" alt="Hamburger Icon">
+        </span>
+        <span class="relative-container">
+            <img src="images/helmet.png" alt="helmet icon">
+            <b>Project R</b>
+        </span>  
+    
+        <ul class="desktop">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Forums</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="gear">
+        <img src="images/gear2.png" id="gear">
+    </div>
+    
+    <header class="hero-image">
+        <section class="hero-text">
+            <h1>Welcome to<br> 
+            Project R: 150 Unlimited</h1></br>
+            <p><span>"Four wheels move a body, two wheels move a soul"</span></p>
+        </section>
+    </header>  
+    
+    <main>
+        <section id="Hall-of-Fame">
+        <h2>Hall of Fame</h2>
+            <div class="grid-container">
+                <figure id="item1">
+                    <img src="images/150Unlimited_001.jpg" alt: 150Unlimited_001>
+                    <figcaption>(Caption by user)</figcaption>
+                </figure>
+                <figure id="item2">
+                    <img src="images/150Unlimited_002.jpg" alt: 150Unlimited_002>
+                    <figcaption>(Caption by user)</figcaption>
+                </figure>
+                <figure id="item3">
+                    <img src="images/150Unlimited_003.jpg" alt: 150Unlimited_003>
+                    <figcaption>(Caption by user)</figcaption>
+                </figure>
+                <figure id="item4">
+                    <img src="images/150Unlimited_004.jpg" alt: 150Unlimited_004>
+                    <figcaption>(Caption by user)</figcaption>
+                </figure>
+                <figure id="item5">
+                    <img src="images/150Unlimited_005.jpg" alt: 150Unlimited_005>
+                    <figcaption>(Caption by user)</figcaption>
+                </figure>
+                <figure id="item6">
+                    <img src="images/150Unlimited_006.jpg" alt: 150Unlimited_006>
+                    <figcaption>(Caption by user)</figcaption>
+                </figure>
+                <figure id="item7">
+                    <img src="images/150Unlimited_007.jpg" alt: 150Unlimited_007>
+                    <figcaption>(Caption by user)</figcaption>
+                </figure>
+                <figure id="item8">
+                    <img src="images/150Unlimited_008.jpeg" alt: 150Unlimited_008>
+                    <figcaption>(Caption by user)</figcaption>
+                </figure>
+                <figure id="item9">
+                    <img src="images/150Unlimited_009.jpg" alt: 150Unlimited_009>
+                    <figcaption>(Caption by user)</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="section-video">
+            <h2>Videos</h2>
+            <div class="flex-container">
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/xDhbLYN7yTg" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/4Y4DvCr0cAA" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+        
+        
+        <section>
+            <picture id="wheelie">
+                <source media="(max-width:426px)" srcset="images/piston.png">
+                <source media="(max-width:768px)" srcset="images/work.png">
+                <source media="(min-width:769px)" srcset="images/wheelie.png">
+                <img src="images/wheelie.png" alt="motor">
+            </picture>
+        </section>
+
+        <section id="form-section">
+            <div>    
+                <h3>I'm inviting you to ride with us. No rules, no boundaries, just 150 Unlimited</h3>
+            </div>
+            
+            <div class="wrapper">
+                <div class="typing">
+                  Let's burn some rubber!
+                </div>
+            </div>
+
+            <div>
+            <fieldset>
+                <legend>Personal information &Phi;</legend>
+                <form>
+                    <label for="fullname">Full name:</label><input type="text" id="fullname" name="fullname" 
+                    placeholder="Enter your full name" required><br>
+                    <label for="age">Age:</label><input type="age" id="age" name="age" 
+                    placeholder="Enter your age" required><br>
+                    <label for="email-address">Email:</label><input type="email" id="email-address" name="email-address" 
+                    placeholder="Enter email" required><br>
+                    <label for="password">Create password:</label><input type="password" id="password" name="password" 
+                    placeholder="Create your password" required><br>
+                    <label for="confirm-password">Confirm password:</label><input type="confirm-password" id="confirm-password" name="confirm-password" 
+                    placeholder="Confirm your password" required><br><br>
+                    <button type="sign-up">Sign up</button>
+                </form>
+            </fieldset>
+            </div>
+
+            <div>
+            <fieldset class="aboutriding">
+                <legend>All about riding &Omega;</legend>
+                <form>
+                    <label for="select-ride">Select your ride:</label>  
+                    <select name="ride" id="select-ride" required> 
+                        <option value="Honda">Honda</option>
+                        <option value="Yamaha">Yamaha</option>
+                        <option value="Suzuki">Suzuki</option>
+                        <option value="Kawasaki">Kawasaki</option>
+                        <option value="Other">Other</option>
+                    </select> 
+                </form>
+        
+                <form>
+                    <p><label for="Tellus">Tell us about your ride:</label></p>
+                    <textarea id="Tellus" name="Tellus" rows="4" cols="50"></textarea><br>
+                </form>
+        
+                <form>
+                    <p>Show us your ride:</p>
+                    <label for="img" >Select image:</label>
+                    <input type="file" id="img" name="img" accept="image/*" required>
+                </form>
+        
+                <form>
+                    <p>Domicile:</p>
+                    <input type="radio" id="Gunungkidul" name="domicile" value="Gunungkidul">
+                    <label for="Gunungkidul">Gunungkidul</label>
+                    <input type="radio" id="Sleman" name="domicile" value="Sleman">
+                    <label for="Sleman">Sleman</label>
+                    <input type="radio" id="Yogyakarta" name="domicile" value="Yogyakarta">
+                    <label for="Yogyakarta">Yogyakarta</label>
+                    <input type="radio" id="Kulonprogo" name="domicile" value="Kulonprogo">
+                    <label for="Kulonprogo">Kulonprogo</label>
+                    <input type="radio" id="Bantul" name="domicile" value="Bantul">
+                    <label for="Bantul">Bantul</label>
+                </form>
+        
+                <form>
+                    <p>What kind of playground do you like:</p>
+                    <input type="checkbox" id="playground1" name="playground1" value="Urban">
+                    <label for="playground1"> Urban</label>
+                    <input type="checkbox" id="playground2" name="playground2" value="Suburban">
+                    <label for="playground2"> Suburban</label>
+                    <input type="checkbox" id="playground3" name="playground3" value="Mountain">
+                    <label for="playground3"> Mountain</label>
+                    <input type="checkbox" id="playground4" name="playground4" value="Prairie">
+                    <label for="playground4"> Prairie</label>
+                </form>
+                <button type="submit">Submit</button>
+            </fieldset>
+            </div>
+        </section>   
+    </main>
+
+    <script src="index.js"></script>
+    
+    <footer class="footer">
+        <p>Hananjaya Project R</p>
+        <p>Copyright &#169 2023</p>
+    </footer>
+</body>
+</html>
+
